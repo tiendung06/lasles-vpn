@@ -1,6 +1,8 @@
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import Header from "./components/header/Header";
+import Hero from "./layout/Hero";
+import Intro from "./layout/Intro";
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
           element={
             <>
               <Header></Header>
+              <Hero></Hero>
+              <Intro></Intro>
             </>
           }
         ></Route>
