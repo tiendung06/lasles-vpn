@@ -3,6 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import Header from "./components/header/Header";
 import Hero from "./layout/Hero";
 import Intro from "./layout/Intro";
+import Feature from "./layout/Feature";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
               <Header></Header>
               <Hero></Hero>
               <Intro></Intro>
+              <Feature></Feature>
             </>
           }
         ></Route>
