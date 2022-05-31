@@ -22,9 +22,9 @@ const Header = () => {
   }, []);
 
   return (
-    <header className="header pt-[50px] pb-[90px] md-max:pt-[25px] md-max:pb-[50px]">
-      <div className="container max-w-[1170px] mx-auto px-[15px]">
-        <div className="header-container flex justify-between items-center">
+    <header className="pt-[50px] pb-[90px] md-max:pt-[25px] md-max:pb-[50px]">
+      <div className="max-w-[1170px] mx-auto px-[15px]">
+        <div className="flex justify-between items-center">
           <img srcSet={`${Logo} 2x`} alt="" className="header-logo" />
           <ul
             ref={menuRef}
@@ -37,12 +37,12 @@ const Header = () => {
             <HeaderItem>Pricing</HeaderItem>
             <HeaderItem>Testimonials</HeaderItem>
             <HeaderItem>Help</HeaderItem>
-            <li className="menu-item menu-item--auth md-min:hidden p-5 flex items-center justify-center gap-x-5">
+            <li className="md-min:hidden p-5 flex items-center justify-center gap-x-5">
               <Sign></Sign>
             </li>
           </ul>
           <div
-            className="menu-toggle hidden w-[30px] h-[20px] sm-max:inline-flex sm-max:justify-between sm-max:flex-col"
+            className="hidden w-[30px] h-[20px] sm-max:inline-flex sm-max:justify-between sm-max:flex-col"
             onClick={handleActive}
           >
             <svg
@@ -60,7 +60,7 @@ const Header = () => {
               />
             </svg>
           </div>
-          <div className="header-auth flex items-center gap-x-[30px] capitalize md-max:hidden">
+          <div className="flex items-center gap-x-[30px] capitalize md-max:hidden">
             <Sign></Sign>
           </div>
         </div>
@@ -74,7 +74,7 @@ function HeaderItem({ children }) {
     <li className="menu-item">
       <NavLink
         to="/"
-        className="menu-link text-inherit inline-block hover:text-[#f53838] transition-all sm-max:block sm-max:w-full sm-max:p-5"
+        className="text-inherit inline-block hover:text-[#f53838] transition-all sm-max:block sm-max:w-full sm-max:p-5"
       >
         {children}
       </NavLink>
@@ -90,7 +90,7 @@ function Sign() {
       </NavLink>
       <NavLink
         to="/"
-        className="button button--outline inline-block py-[13px] px-[45px] border-none outline-none text-center 
+        className="inline-block py-[13px] px-[45px] border-none outline-none text-center 
                 whitespace-nowrap bg-transparent text-[#f53838] font-medium border"
       >
         Sign Up

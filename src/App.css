@@ -43,12 +43,4 @@ h6 {
   .menu.is-show {
     transform: translateX(0);
   }
-
-  .menu-item--auth {
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0 20px;
-  }
 }
