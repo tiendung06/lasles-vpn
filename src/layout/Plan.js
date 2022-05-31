@@ -6,32 +6,32 @@ import network from "../images/network-image.png";
 
 const Plan = () => {
   return (
-    <section className="plan pt-[80px] pb-[30px] md-max:py-[50px]">
-      <div className="container max-w-[1170px] mx-auto px-[15px]">
-        <div className="plan-header max-w-[555px] mx-auto mb-[60px] text-center">
+    <section className="pt-[80px] pb-[30px] md-max:py-[50px]">
+      <div className="max-w-[1170px] mx-auto px-[15px]">
+        <div className="max-w-[555px] mx-auto mb-[60px] text-center">
           <h2 className="heading font-medium text-[35px] leading-[1.4] mb-5 sm-max:text-[30px]">
             Choose Your Plan
           </h2>
-          <p className="text leading-[1.875]">
+          <p className="leading-[1.875]">
             Let's choose the package that is best for you and explore it happily
             and cheerfully.
           </p>
         </div>
-        <div className="plan-list grid grid-cols-3 gap-x-[50px] mb-[176px]">
+        <div className="grid grid-cols-3 gap-x-[50px] mb-[176px]">
           <PlanItem title="Free Plan" price="Free"></PlanItem>
           <PlanItem title="Standard Plan" price="$9" meta={1}></PlanItem>
           <PlanItem title="Premium Plan" price="$12" meta={2}></PlanItem>
         </div>
-        <div className="boxed max-w-[555px] mx-auto text-center">
-          <h2 className="heading network-heading font-medium text-[35px] leading-[1.4] mb-5 sm-max:text-[30px] max-w-[380px] mx-auto">
+        <div className="max-w-[555px] mx-auto text-center">
+          <h2 className="font-medium text-[35px] leading-[1.4] mb-5 sm-max:text-[30px] max-w-[380px] mx-auto">
             Huge Global Network of Fast VPN
           </h2>
-          <p className="text leading-[1.875]">
-            See <span className="text-medium font-medium">LaslesVPN</span>{" "}
-            everywhere to make it easier for you when you move locations.
+          <p className="leading-[1.875]">
+            See <span className="font-medium">LaslesVPN</span> everywhere to
+            make it easier for you when you move locations.
           </p>
         </div>
-        <div className="network-image mt-[155px] md-max:mt-[50px]">
+        <div className="mt-[155px] md-max:mt-[50px]">
           <img srcSet={`${network} 2x`} alt="" />
         </div>
       </div>

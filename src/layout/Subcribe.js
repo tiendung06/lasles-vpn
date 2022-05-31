@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const Subcribe = () => {
   return (
-    <section className="subscribe">
+    <section className="subscribe lg-min:translate-y-1/2">
       <div className="max-w-[1170px] mx-auto px-[15px]">
         <div
           className="bg-white rounded-[10px] py-[58px] px-[70px] 
