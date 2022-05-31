@@ -6,6 +6,7 @@ import Intro from "./layout/Intro";
 import Feature from "./layout/Feature";
 import Plan from "./layout/Plan";
 import Partner from "./layout/Partner";
+import Customer from "./layout/Customer";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
               <Feature></Feature>
               <Plan></Plan>
               <Partner></Partner>
+              <Customer></Customer>
             </>
           }
         ></Route>
