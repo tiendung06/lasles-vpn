@@ -4,6 +4,7 @@ import Header from "./components/header/Header";
 import Hero from "./layout/Hero";
 import Intro from "./layout/Intro";
 import Feature from "./layout/Feature";
+import Plan from "./layout/Plan";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
               <Hero></Hero>
               <Intro></Intro>
               <Feature></Feature>
+              <Plan></Plan>
             </>
           }
         ></Route>
