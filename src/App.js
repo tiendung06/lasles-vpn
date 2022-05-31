@@ -5,6 +5,7 @@ import Hero from "./layout/Hero";
 import Intro from "./layout/Intro";
 import Feature from "./layout/Feature";
 import Plan from "./layout/Plan";
+import Partner from "./layout/Partner";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
               <Intro></Intro>
               <Feature></Feature>
               <Plan></Plan>
+              <Partner></Partner>
             </>
           }
         ></Route>
