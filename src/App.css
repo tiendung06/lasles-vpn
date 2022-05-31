@@ -77,3 +77,20 @@ h6 {
     scroll-snap-align: start;
   }
 }
+
+.button--shadow {
+  position: relative;
+}
+
+.button--shadow:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 90%;
+  height: 100%;
+  transform: translate(-50%, 50%);
+  background-color: rgba(245, 56, 56, 0.35);
+  filter: blur(54px);
+  border-radius: inherit;
+}
