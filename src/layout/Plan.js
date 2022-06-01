@@ -17,7 +17,7 @@ const Plan = () => {
             and cheerfully.
           </p>
         </div>
-        <div className="grid grid-cols-3 gap-x-[50px] mb-[176px]">
+        <div className="plan-list grid grid-cols-3 gap-x-[50px] mb-[176px]">
           <PlanItem title="Free Plan" price="Free"></PlanItem>
           <PlanItem title="Standard Plan" price="$9" meta={1}></PlanItem>
           <PlanItem title="Premium Plan" price="$12" meta={2}></PlanItem>
